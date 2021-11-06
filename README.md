@@ -1,5 +1,5 @@
-# Poker Hand Builder
-Welcome to the poker hand builder! This TypeScript app will let you build a deck of cards and deal 2 cards to as many players as desired.
+# Poker Hand Test Suite
+Welcome to the poker hand test suite! This TypeScript app will let you build a deck of cards and deal 2 cards to as many players as desired.
 
 ## Pre-Requisites
 You will need TypeScript installed in order to use this app.
@@ -11,7 +11,7 @@ npm install -g typescript
 You will also need to rebuild TypeScript after making any changes before running the code.
 
 ```js
-tsc -p LOCAL_PATH/poker-hand-builder/tsconfig.json
+tsc -p LOCAL_PATH/poker-hand-test-suite/tsconfig.json
 ```
 
 ## Running The App
@@ -19,6 +19,12 @@ Each runthrough will build a deck and deal 2 cards to 2 players. The results are
 
 ```js
 node index
+```
+
+## Running Tests
+To run the test suite, simply run npm test.
+```js
+npm test
 ```
 
 ## Future Use
